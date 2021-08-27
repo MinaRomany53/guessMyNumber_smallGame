@@ -20,7 +20,7 @@ const checkFunction = function () {
     document.querySelector(".message").textContent = " 🎉 Correct Number !";
     document.querySelector(".box-number").textContent = secretNumber;
     document.querySelector("body").style.backgroundColor = "#60b347";
-    document.querySelector(".box-number").style.padding = "3rem 12rem";
+    document.querySelector(".box-number").style.padding = "3rem 7rem";
     if (score > highScore) {
       highScore = score;
       document.querySelector(".highscore").textContent = highScore;

@@ -143,8 +143,20 @@ main .col-2 .label-score {
   font-size: 2rem;
   margin-bottom: 2rem;
 }
+
 main .col-2 .label-highscore {
   font-size: 2rem;
+}
+@media (max-width: 400px) {
+  main .col-2 .message {
+    font-size: 1.5rem;
+  }
+  main .col-2 .label-score {
+    font-size: 1.5rem;
+  }
+  main .col-2 .label-highscore {
+    font-size: 1.5rem;
+  }
 }
 /*End Main*/
 
