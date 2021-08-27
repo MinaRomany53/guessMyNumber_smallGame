@@ -1,0 +1,156 @@
+@import url(globalRules.css);
+
+/*Start header*/
+header {
+  padding-top: 2rem;
+  position: relative;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar .nav-text {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+}
+@media (max-width: 576px) {
+  header .navbar .nav-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  header .navbar .nav-text {
+    font-size: 0.7rem;
+  }
+}
+header .content {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header .content .main-heading {
+  font-size: 4rem;
+}
+@media (max-width: 670px) {
+  header .content .main-heading {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 576px) {
+  header .content .main-heading {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  header .content .main-heading {
+    font-size: 1.8rem;
+  }
+}
+header .content .box-number {
+  color: #333;
+  background-color: #eee;
+  padding: 3rem 4rem;
+  font-size: 6rem;
+  margin-top: 3.5rem;
+  border-radius: 7px;
+  transition: all 0.3s;
+}
+header .content .box-number:hover {
+  color: #eee;
+  background-color: #333;
+}
+header .content .box-number::before {
+  content: "";
+  position: absolute;
+  background-color: #eee;
+  width: 100%;
+  height: 5px;
+  left: 0;
+  top: 264px;
+  z-index: -1;
+}
+/*End header*/
+
+/*Start Main*/
+main {
+  padding-top: 8rem;
+}
+@media (max-width: 768px) {
+  main {
+    padding-top: 4rem;
+  }
+}
+main .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  main .container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+main .col-1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+}
+@media (max-width: 992px) {
+  main .col-1 {
+    margin-left: 0;
+  }
+}
+main .col-1 .guees-box {
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
+main .col-1 .check-btn {
+  width: fit-content;
+  margin: 0 auto;
+}
+main .col-2 {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  main .col-2 {
+    margin-top: 30px;
+  }
+}
+main .col-2 .message {
+  font-size: 2rem;
+  margin-bottom: 10rem;
+}
+@media (max-width: 768px) {
+  main .col-2 .message {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+  }
+}
+main .col-2 .label-score {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+main .col-2 .label-highscore {
+  font-size: 2rem;
+}
+/*End Main*/
+
+/*Start Footer*/
+footer {
+  padding: 6rem 0 2rem;
+  text-align: center;
+}
+/*End Footer*/

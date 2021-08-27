@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guess My Number!</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <button class="btn again-btn">Again!</button>
+          <p class="nav-text">(Between 1 and 20)</p>
+        </div>
+      </div>
+      <div class="content">
+        <h1 class="main-heading">Guess My Number!</h1>
+        <div class="box-number">?</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="col-1">
+          <input type="number" class="guees-box" min="1" max="20" />
+          <button class="btn check-btn">Check!</button>
+        </div>
+        <div class="col-2">
+          <p class="message">Start guessing...</p>
+          <p class="label-score">💯 Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            🏅 HighScore: <span class="highscore">0</span>
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span class="author"></span>
+         Coded by <span class="author-name">Mina.R</span></span
+      >
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
